@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satwik Choudhari - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Satwik Choudhari</div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in-up">
+                Hi, I'm <span class="text-primary">Satwik Choudhari</span>
+            </h1>
+            <p class="hero-subtitle fade-in-up">Android Developer & Machine Learning Enthusiast</p>
+            <p class="hero-description fade-in-up">
+                Final-year B.Tech student passionate about building innovative mobile applications and exploring the frontiers of machine learning technology.
+            </p>
+            <div class="hero-buttons fade-in-up">
+                <button class="btn btn-primary pulse-glow" onclick="scrollToSection('projects')">View My Work</button>
+                <button class="btn btn-outline" onclick="scrollToSection('contact')">Get In Touch</button>
+            </div>
+        </div>
+        <div class="hero-bg-animation"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-content slide-in-left">
+                    <h3 class="about-subtitle">Professional Summary</h3>
+                    <p class="about-text">
+                        I'm a final-year B.Tech student in Electronics & Telecommunication with hands-on experience in Android Development using Kotlin, Jetpack Compose, and Firebase. I'm also passionate about Machine Learning, working with TensorFlow and scikit-learn to build intelligent solutions.
+                    </p>
+                    <p class="about-text">
+                        My expertise spans mobile app development, API integration, and data analysis. I'm actively seeking opportunities in Software Development and Android Engineering where I can contribute to innovative projects and continue growing my technical skills.
+                    </p>
+                </div>
+                <div class="about-cards">
+                    <div class="card hover-lift">
+                        <div class="card-header">
+                            <h4 class="card-title text-primary">Education</h4>
+                        </div>
+                        <div class="card-content">
+                            <h5>Bachelor of Technology</h5>
+                            <p>Electronics and Telecommunication Engineering</p>
+                            <p class="text-muted">Shri Guru Gobind Singhji Institute of Engineering and Technology</p>
+                            <p class="text-muted">2022 – 2026 | CGPA: 6.8/10</p>
+                        </div>
+                    </div>
+                    <div class="card hover-lift">
+                        <div class="card-header">
+                            <h4 class="card-title text-primary">Contact Info</h4>
+                        </div>
+                        <div class="card-content">
+                            <p>📱 +91-8552874512</p>
+                            <p>✉️ satwikchoudhari19@gmail.com</p>
+                            <p>🔗 LinkedIn | GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category card hover-lift">
+                    <div class="card-header">
+                        <h4 class="card-title text-primary">Languages</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Kotlin</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category card hover-lift">
+                    <div class="card-header">
+                        <h4 class="card-title text-primary">Mobile Development</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="skill-tags">
+                            <span class="skill-tag">Android Studio</span>
+                            <span class="skill-tag">Jetpack Compose</span>
+                            <span class="skill-tag">MVVM</span>
+                            <span class="skill-tag">XML Layouts</span>
+                            <span class="skill-tag">Material Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category card hover-lift">
+                    <div class="card-header">
+                        <h4 class="card-title text-primary">Backend</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="skill-tags">
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">SQLite</span>
+                            <span class="skill-tag">Room DB</span>
+                            <span class="skill-tag">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category card hover-lift">
+                    <div class="card-header">
+                        <h4 class="card-title text-primary">Machine Learning</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow Lite</span>
+                            <span class="skill-tag">scikit-learn</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category card hover-lift">
+                    <div class="card-header">
+                        <h4 class="card-title text-primary">Tools</h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">IntelliJ IDEA</span>
+                            <span class="skill-tag">Jupyter</span>
+                            <span class="skill-tag">Google Colab</span>
+                            <span class="skill-tag">Gradle</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card card hover-lift">
+                    <div class="card-header">
+                        <div class="project-header">
+                            <h4 class="card-title">Plant Detection App</h4>
+                            <span class="status-badge status-progress">In Progress</span>
+                        </div>
+                        <p class="card-description">Android app built with Kotlin + Jetpack Compose to classify 10+ plant species using TensorFlow Lite.</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="tech-tags">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">TensorFlow Lite</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <button class="btn btn-outline btn-full">View on GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card card hover-lift">
+                    <div class="card-header">
+                        <div class="project-header">
+                            <h4 class="card-title">Android Utility Apps</h4>
+                            <span class="status-badge status-completed">Completed</span>
+                        </div>
+                        <p class="card-description">Developed 3+ apps (notes, weather, expense tracker) using MVVM and REST APIs.</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="tech-tags">
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">MVVM</span>
+                            <span class="tech-tag">Room DB</span>
+                            <span class="tech-tag">Google Maps SDK</span>
+                        </div>
+                        <button class="btn btn-outline btn-full">View on GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card card hover-lift">
+                    <div class="card-header">
+                        <div class="project-header">
+                            <h4 class="card-title">Machine Learning Experiments</h4>
+                            <span class="status-badge status-completed">Completed</span>
+                        </div>
+                        <p class="card-description">Implemented ML models on datasets of 5k+ rows achieving 85%+ accuracy.</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                        <button class="btn btn-outline btn-full">View on GitHub</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card card hover-lift">
+                    <div class="cert-content">
+                        <div class="cert-bullet"></div>
+                        <p>Supervised Machine Learning: Regression and Classification - DeepLearning.AI</p>
+                    </div>
+                </div>
+                <div class="cert-card card hover-lift">
+                    <div class="cert-content">
+                        <div class="cert-bullet"></div>
+                        <p>Advanced Learning Algorithms - DeepLearning.AI</p>
+                    </div>
+                </div>
+                <div class="cert-card card hover-lift">
+                    <div class="cert-content">
+                        <div class="cert-bullet"></div>
+                        <p>Unsupervised Learning, Recommenders, Reinforcement Learning - DeepLearning.AI</p>
+                    </div>
+                </div>
+                <div class="cert-card card hover-lift">
+                    <div class="cert-content">
+                        <div class="cert-bullet"></div>
+                        <p>Android Mobile Application Development - Meta</p>
+                    </div>
+                </div>
+                <div class="cert-card card hover-lift">
+                    <div class="cert-content">
+                        <div class="cert-bullet"></div>
+                        <p>Deep Learning Specialization - DeepLearning.AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    I'm always interested in discussing new opportunities and innovative projects. Let's connect and explore how we can work together!
+                </p>
+            </div>
+            <div class="contact-buttons">
+                <button class="btn btn-primary pulse-glow">Send Email</button>
+                <button class="btn btn-outline">View LinkedIn</button>
+                <button class="btn btn-outline">Check GitHub</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Satwik Choudhari. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
